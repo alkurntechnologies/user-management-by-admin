@@ -1,0 +1,1120 @@
+@media only screen and (max-width:1499px) { 
+.rinkDetail .rinkDetailRight.fixed {right: 10%;}
+}
+
+@media only screen and (max-width:1399px) { 
+.rinkDetail .rinkDetailRight.fixed {right:7%;}
+}
+
+@media only screen and (max-width:1299px) { 
+.rinkDetail .rinkDetailRight.fixed {right:3%;}
+}
+
+@media screen and (max-width: 1199px) {
+	/*--Header--*/
+	.rink-header a.add-rink::before {
+		content: "";
+		border-width: 16px 5px 16px 5px;
+		border-color: #C8102E transparent transparent #C8102E;
+		position: absolute;
+		top: 0;
+		left: 34px;
+		border-style: solid;
+	}
+	.rink-header a.add-rink {
+		color: #C8102E;
+		padding: 10px 11px 10px 44px;
+		border: 1px solid #C8102E;
+		font-size: 11px;
+		text-transform: uppercase;
+		position: relative;
+		font-weight: 400;
+		top: 20px;
+	}
+	.rink-header a.add-rink::after {
+		content: "";
+		background: #C8102E;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 34px;
+	}
+
+	.content-area {
+		margin: 67px 0 0 0;
+	}
+
+	.h-menu li a {
+		color: #000;
+		font-size: 12px;
+		font-weight: 400px;
+		margin-right:12px;
+	}
+
+	.h-menu {
+		padding: 0;
+		margin: 20px 0 0 0;
+		list-style: none;
+	}
+
+	.rink-header img {
+		height: 68px;
+		width: auto;
+	}
+
+
+	/*--mp-section--*/
+	.section-find-map h1 {
+		font-size: 30px;
+		font-weight: 700;
+		color: #000000;
+		line-height: 35px;
+	}
+	.section-find-map .map-img {
+		height: 352px;
+		width: 100%;
+	}
+
+	.row.row-quick .col-sm-3 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.section-know .img-ball {
+		width: 100%;
+		height: 709px;
+	}
+
+.section-explore .explore-div, .section-explore .explore-div:hover {padding: 34px 15px 16px 15px;}
+.rinkBooking {padding: 15px 10px;font-size: 11px;}
+.rinkSlider #thumbs .item {height: 120px;}
+.rinkinfoBox .rinkinfoDetail {margin-left: 0;}
+.slotsTabs .nav-tabs .nav-link {padding: 10px 30px 10px 0;}
+.slotDetails { display: inline-block; }
+.addedSlotBox .slotDetails div {width: auto;margin-right: 20px;}
+.bookingsBox .lftTil {padding: 0 15px 0 0;}
+.bookingsBox .greyBtn {min-width: 60px;}
+.section-featured .featured-rinks .f-img {width: 40%;height: 300px;}
+.section-featured .info.null-state {width: 60%;padding-left: 30px;}
+#nearby-rinks.section-featured .featured-rinks .slot-avail {top: 54%;}
+.drop-state .user-btn {font-size: 12px;}
+}/*1199*/
+
+@media screen and (max-width:999px) {
+.addedSlotBox .slotDetails div:nth-child(3) { margin-right: 10px; }
+}
+
+@media screen and (max-width: 1099px) {
+.section-featured .featured-rinks .f-img {
+		height: 343px;
+		width: 93%;
+		position: relative;
+	}
+.rinkDetail .rinkDetailRight.fixed {right: 1%;}
+}
+
+@media screen and (max-width: 991px) {
+
+	.h-menu li a {
+		margin-right: 10px;
+	}
+	.section-featured .h-feature {
+		padding: 46px 0 0px 0;
+	}
+	.section-featured .featured-rinks .slot-avail {
+		top: 46%;
+	}
+
+	.section-about .text-ab::before {
+		content: "";
+		border-left: 6px solid #0032A0;
+		height: 62px;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.section-about .ab-img img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.section-about .ab-img {
+		width: 100%;
+		height: unset;
+		margin-bottom: 173px;
+	}
+
+	.section-about .text-ab h1 {
+		padding: 0;
+		margin: 0 0 8px 0;
+		color: #000;
+		font-weight: 700;
+		font-size: 32px;
+	}
+
+	.section-how .img-how {
+			height: 193px;
+			width: 176px;
+			position: absolute;
+			right: 0;
+			top: 142px;
+			z-index: -1;
+		}
+
+	.row.row-user {
+		background: #fff;
+		padding: 30px 0 28px 0;
+		margin-top: -170px;
+		box-shadow: 0px 0px 25px #00000029;
+	}
+	.col-sm-6.know-text {
+		padding-left: 0;
+	}
+.section-explore .explore-div {margin-bottom: 30px;}
+.section-float .offset-3 {margin: 0 0 30px 0;}
+.section-know .btns-know a {padding: 13px 20px 10px 20px;margin: 20px 10px 0 0;}
+.lgLogo img {width: 100%;}
+.loginRight {padding: 46px 25px 95px;}
+.add-rink-requiest .col-sm-6.offset-3 {margin: 0;max-width: 100%;flex: auto;}
+.logedin .col-sm-4.text-center {padding: 0;}
+.logedin .drop-state .user-btn { padding: 0; }
+.sidemenu-btn .h-menu { display: inline-block; }
+.sidemenu-btn .drop-state .user-btn {color: #fff;width: 100%;text-align: left;}
+.sidemenu-btn .dropdown-menu {position: relative !important;width: 100%;border-radius: 0;top: -40px !important;background: #111;}
+.sidemenu-btn .drop-state .dropdown-menu a { text-transform: capitalize;transition: all 0.5s ease-in-out; }
+.sidemenu-btn .drop-state .dropdown-menu a:hover, .sidemenu-btn .drop-state .dropdown-menu a:focus {padding: 8px;transition: all 0.5s ease-in-out;background: #d6d6d6;color: #000;}
+.sidemenu-btn .drop-state + .logedin-add-rink { clear: both; }
+.content-area { position: relative;min-height: auto; }
+
+.side-profile {background: #111;position: absolute;left: 0;top: 0;z-index: 1;width: 250px;transform: translateX(-250px);transition: all 0.5s ease-in-out;padding: 20px 15px;}
+.side-profile.expand {transform: translateX(0);transition: all 0.5s ease-in-out;}
+.side-profile ul li a {color: #fff;margin-bottom: 20px;}
+.side-profile .dashMenu {display: block;position: absolute;right: -86px;background: #C8102E;color: #fff;
+	text-transform: uppercase;font-size: 12px;padding: 5px 10px;transform: rotate(-90deg);top: 105px;
+	border-radius: 0 0 5px 5px;}
+.side-profile + div {max-width: 100%;flex: auto;}
+.rinkBooking .rinkRank {width: 52px;display: block;}
+.rinkBooking .d-flex div.rb-day {width: 55px;display: block;}
+.rinkSlider #big .item {height: 300px;}
+.rinkSlider #thumbs .item {height: 60px;}
+.rinkinfoBox .rinkinfoImg {width:100px;height:100px;margin-right:10px;}
+.rinkinfoBox .rinkinfoImg img {width:100%;height: 100%;object-fit: cover;}
+.rinkinfoBox .rinkinfoDetail .rinkAddress {font-size: 14px;}
+.follows-rink .resultShow .slot-avail {position: relative;top: 40px;}
+#nearby-rinks .featured-rinks .info.null-state {width: 100%;}
+.rink-header a.add-rink {padding: 10px 11px 10px 20px;}
+.rink-header a.add-rink::after {width: 10px;}
+.rink-header a.add-rink::before {border-width: 16px 5px 16px 5px;left: 10px;}
+}/*991*/
+
+@media only screen and (max-width:899px) { 
+.section-map .nav {width: auto;margin: 60px 10px 50px 10px;}
+.section-map h1 {font-size: 40px;}
+.section-map .nav .nav-link {font-size: 15px;}
+}
+
+@media screen and (max-width: 790px) {
+		.row.map-row .col-sm-8 {
+
+		    -ms-flex: 0 0 55.667%;
+		    flex: 0 0 55.667%;
+		    max-width: 55.667%;
+
+		}
+		.row.map-row .col-sm-4.col-heading {
+			padding-top: 25px;
+			-ms-flex: 0 0 41.333%;
+			flex: 0 0 41.333%;
+			max-width: 41.333%;
+		}
+}
+
+
+@media screen and (max-width: 767px) {
+
+	.section-featured .featured-rinks .slot-avail::before {
+		content: "";
+		position: absolute;
+		border-width: 10px 5px 23px 12px;
+		border-color: #fff #c8102e #c8102e #fff;
+		border-style: solid;
+		top: -1px;
+		left: -13px;
+		outline: 0;
+	}
+
+	.section-featured .featured-rinks .slot-avail.open::before {
+		content: "";
+		position: absolute;
+		border-width:10px 5px 23px 12px;
+		border-color: #fff #00a05b #00a05b #fff;
+		border-style: solid;
+		top: -1px;
+		left: -13px;
+		outline: 0;
+	}
+
+
+	.stop-mn{
+		display:none;
+	}
+	.stare-mn{
+		display:block;
+	}
+
+	/*---sidebar btn---*/
+	/*----Sidebar started----*/
+	.sidebar {
+	  height: 100%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+	}
+
+	.sidebar a:hover {
+	  color: #f1f1f1;
+	}
+
+	.sidebar .closebtn {
+	  position: absolute;
+	  top: 0;
+	  right: 25px;
+	  font-size: 36px;
+	  margin-left: 50px;
+	}
+
+	.openbtn {
+		font-size: 20px;
+		cursor: pointer;
+		background-color: #123740;
+		color: white;
+		padding: 3px 8px;
+		border: 1px solid aliceblue;
+		margin-top: 14px;
+		font-weight: 700;
+		transition: all .3s ease;
+		outline: none;
+	}
+
+	.openbtn:focus, .openbtn:active {
+		outline:none;
+		background-color: #123740;
+  		border: 1px solid aliceblue;
+	}
+
+	.openbtn:hover {
+		background-color: #f2506a;
+		border: 1px solid #f2506a;
+		transition: all .3s ease;
+	}
+	.external-menuz ul {
+		list-style: none;
+		margin: 0;
+		padding: 0 18px 0 15px;
+	}
+	.sidebar a {
+		padding: 8px 8px 8px 0px;
+		text-decoration: none;
+		font-size: 18px;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+		text-align: left;
+		font-weight: 500;
+	}
+
+	.section-map .banner-sub {
+		background: url("../images/banner.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 135px 0 140px 0 !important;
+	}
+
+	.section-map h1 {
+		font-weight: 700;
+		font-size: 38px;
+		padding: 0;
+		margin: 0;
+		color: #FFFFFF;
+		text-shadow: 0px 0px 6px #000000BF;
+		text-transform: uppercase;
+	}
+
+	.banner-sub .nav-item {
+	    width: 33.33%;
+	}
+
+	.section-map .nav .nav-link {
+		display: block;
+		background: transparent;
+		padding: 6px 14px;
+		color: #FFFFFF;
+		font-size: 12px;
+		font-weight: 400;
+		margin-right: 20px;
+	}
+
+
+	.div-search input {
+		background: #fff;
+		height: 43px;
+		font-size: 15px;
+		color: #000;
+		border: 0;
+		width: 50%;
+		border-right: 1px solid #ddd;
+		padding: 0 10px 0 28px;
+		border-radius: 8px 0 0 8px;
+	}
+
+	.search-form .submit-book {
+		padding: 0px 20px 0 21px;
+		height: 43px;
+		background: #0032A0;
+		font-size: 15px;
+		font-weight: 400;
+		color: #fff;
+		border: 0;
+		border-radius: 8px;
+		margin-left: 10px;
+	}
+
+	.div-search select {
+		background: #fff;
+		height: 43px;
+		font-size: 15px;
+		color: #000;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		border: 0;
+		padding: 0 0 0 10px;
+		width: 45%;
+		border-radius: 0 8px 8px 0;
+	}
+
+	.div-search {
+		background: #fff;
+		width: max-content;
+		margin: 0 auto;
+		display: inline-block;
+		height: 43px;
+		box-shadow: 0px 0px 11px #000000;
+		border-radius: 8px;
+	}
+
+	.section-map .nav {
+		width: max-content;
+		margin: 60px auto 50px auto;
+		background: rgba(255,255,255,0.3);
+		padding: 5px 5px 3px 5px;
+		border-radius:19px;
+		height: unset;
+	}
+
+	.row.map-row .col-sm-8 {
+
+		    -ms-flex: 0 0 100%;
+		    flex: 0 0 100%;
+		    max-width: 100%;
+
+	}
+	.row.map-row .col-sm-4.col-heading {
+		padding: 10px 12px 10px 12px;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		text-align: center;
+	}
+	.section-find-map .map-img {
+		height: 230px;
+		width: 100%;
+	}
+
+	.section-find-map {
+		padding: 51px 0 0px 0;
+	}
+
+	.section-find-map {
+		padding: 51px 0 0px 0;
+	}
+
+	.section-featured .h-feature {
+		padding: 46px 0 0px 0;
+	}
+
+	.section-featured .featured-rinks .f-img {
+		height: 100%;
+		width: 100%;
+		position: relative;
+		margin: 0 0 0 5px;
+	}
+
+	.section-featured .featured-rinks .col-sm-5.null-state {
+		margin: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.section-featured .featured-rinks .col-sm-7.null-state {
+		padding: 20px;
+		margin: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding-bottom: 0;
+	}
+
+	.section-featured .featured-rinks .slot-avail {
+		font-size: 12px;
+		color: #fff;
+		font-weight: 400;
+		padding: 8px 7px 6px 15px;
+		background: #C8102E;
+		border: 1px solid #DCDCDC;
+		position: absolute;
+		top: 53%;
+		right: -25px;
+	}
+
+	.section-featured .featured-rinks .sub-btn {
+		font-size: 12px;
+		color: #000000;
+		font-weight: 400;
+		padding: 5px 15px 4px 15px;
+		background: #FFFFFF;
+		border: 1px solid #000000;
+		border-radius: 8px;
+		text-transform: uppercase;
+		position: relative;
+		top: 0;
+		margin: 18px 0 18px 0;
+	}
+
+	.section-featured .featured-rinks .view-btn {
+		font-size: 12px;
+		font-weight: 400;
+		color: #fff;
+		padding: 10px 19px 8px 19px;
+		background: #0032A0;
+		border-radius: 8px;
+		display: inline-block;
+		margin: 20px 0 0 0;
+		text-transform: uppercase;
+	}
+
+	.section-featured .featured-rinks span.address p {
+		display: inline;
+		position: relative;
+		top: -6px;
+		left: 6px;
+		font-weight: 700;
+		color: #000;
+		font-size: 14px;
+	}
+
+	.section-featured .featured-rinks .f-img {
+		height: 100%;
+		width: 100%;
+		position: relative;
+		margin: 0 0 0 6px;
+	}
+
+	.div-search .inp-ic i {
+		position: absolute;
+		left: 13px;
+		top: 1px;
+		font-size: 20px;
+		color: gray;
+	}
+
+	.div-search input {
+		background: #fff;
+		height: 43px;
+		font-size: 14px;
+		color: #000;
+		border: 0;
+		width: 50%;
+		border-right: 1px solid #ddd;
+		padding: 0 10px 0 46px;
+		border-radius: 8px 0 0 8px;
+	}
+
+	.view-all-row a {
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 1px solid #000000;
+		border-radius: 8px;
+		padding: 11px 28px 8px 28px;
+		color: #000000;
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	.view-all-row {
+		padding-top: 16px;
+		padding-bottom: 19px;
+	}
+
+	.section-about .col-sm-5 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.section-about .col-sm-7.col-ev {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.section-about .ab-placed {
+		border: 1px solid #FFFFFF;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+	.section-about .ab-img {
+		/* width: 100%; */
+		height: 300px;
+		margin-bottom: 173px;
+	}
+
+	.box-quick.row .col-sm-5 {
+
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+
+	}
+
+	.box-quick.row .col-sm-7 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	.section-how {
+		padding: 42px 0 0 0;
+	}
+
+	.section-how h1 {
+		font-size: 32px;
+		color: #000;
+		font-weight: 700;
+	}
+
+	
+	.section-how h2 {
+		font-size: 19px;
+		font-weight: 400;
+		color: #000;
+	}
+	.box-regi ul li span {
+		font-size: 12px;
+		color: #000;
+		background: #ECF3F6;
+		padding: 0 12px 0 2px;
+		z-index: 1;
+		position: relative;
+	}
+
+	.section-know {
+		padding: 40px 0 0 0;
+	}
+	.box-regi {
+		background: #ECF3F6;
+		width: 100%;
+		padding: 30px 0 30px 20px;
+		margin-bottom: 8px;
+	}
+
+	.section-know .img-ball {
+		width: 100%;
+		height: 306px;
+	}
+	.section-float .offset-3 {
+	    margin-left: 0;
+	}
+
+	.section-float .col-sm-9.offset-3 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.section-know .col-sm-6 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.col-sm-6.know-text {
+		padding: 15px;
+	}
+
+	.row.row-user {
+		background: #fff;
+		padding: 30px 0 28px 0;
+		margin-top: -77px;
+		box-shadow: 0px 0px 25px #00000029;
+	}
+
+	.section-float ul li {
+		display: inline-block;
+		width: 32.33%;
+	}
+
+	.site-footer .section-footer {
+		/*padding-top: 183px;*/
+		padding-bottom: 33px;
+	}
+
+	.section-footer .f-menus li a {
+		font-size: 13px;
+		font-weight: 400;
+		color: #E1E1E1;
+		margin-right: 0;
+	}
+
+	.section-footer .f-menus li {
+		display: inline-block;
+		width: 33%;
+	}
+.section-explore h1 {font-size: 35px;}
+.section-how .nav-tabs {width: 100%;margin: 0 0 25px 0;}
+.section-how .tab-content p::after {left:0;}
+.section-how .tab-content .img-how {float: none;margin: 0 auto;}
+.section-know .btns-know a {margin:0 10px 0 0;}
+.section-float .col-sm-3.text-center {padding: 0 5px;}
+.box-usr h4 {font-size: 15px;}
+.section-float ul li {width: 32.33%;}
+.bgContainer {padding: 50px 0;}
+.lodginLeft {padding-top: 0;}
+.lgLogo { text-align: center; }
+.lgLogo img {width: auto;}
+.lgTxtSmall {line-height: 30px;margin-bottom: 30px;}
+.loginRight {padding: 46px 25px 30px;}
+.operator-profile .op-img {margin: 0 auto 20px;}
+.searchResult .featured-rinks {padding: 10px 15px;}
+.searchResult.section-featured .featured-rinks .f-img {margin: 0 auto 20px;float: none;display: block;}
+.searchResult .info.null-state {padding: 0;width: 100%;}
+.rinkDetail .row {}
+.rinkDetail .rinkDetailLeft {order: 2; flex: auto;}
+.rinkDetail .rinkDetailRight { order: 1; flex: auto; margin-bottom: 30px; }
+.rinkDetail .rinkDetailRight.fixed {position: inherit;}
+.slotsTabs .nav-tabs .nav-link {padding: 10px 12px 10px 0;font-size: 15px;}
+.slotsTabs .addedSlotBox [type="checkbox"]:not(:checked) + label, .slotsTabs .addedSlotBox [type="checkbox"]:checked + label {width: auto;margin: 0;height: 45px;}
+.slotsTabs .slotEdit {margin-top: 0;}
+.addedSlotBox .slotDetails div {margin-right: 10px;}
+.addedSlotBox .slotDetails div label {font-size: 14px;}
+.myBookings {padding: 0;}
+.btns-know {padding-top: 15px;}
+#nearby-rinks.section-featured .featured-rinks .slot-avail {top: 56%;right: -14px;}
+#nearby-rinks.section-featured .featured-rinks .slot-avail::before {border-width: 11px 5px 23px 12px;}
+#nearby-rinks.section-featured .featured-rinks .sub-btn {line-height: 30px;}
+}/*767*/
+
+@media screen and (max-width: 625px) {
+	.section-about .text-ab h1 {
+		padding: 0;
+		margin: 0 0 8px 0;
+		color: #000;
+		font-weight: 700;
+		font-size: 29px;
+	}
+
+	.section-map .banner-sub {
+		background: url("../images/banner.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 100px 0 117px 0 !important;
+	}
+	.banner-sub .nav-item {
+	    width: 100%;
+	}
+	.section-map .nav {
+		width: 210px;
+		margin: 37px auto 50px auto;
+		background: rgba(255,255,255,0.3);
+		padding: 5px 5px 3px 5px;
+		border-radius: 19px;
+		height: unset;
+	}
+
+	.section-map h1 {
+		font-weight: 700;
+		font-size: 31px;
+		padding: 0 16px 0 16px;
+		margin: 0;
+		color: #FFFFFF;
+		text-shadow: 0px 0px 6px #000000BF;
+		text-transform: uppercase;
+	}
+.rinkSlider #thumbs .item {height: 70px;}
+}
+
+@media screen and (max-width: 575px) {
+	.site-header.rink-header .col-sm-4 {
+	    width: 49%;
+	    text-align: left !important;
+	}
+
+
+	.site-header.rink-header .col-sm-8 {
+	    width: 51%;
+	}
+
+	.rink-header img {
+		height: 58px;
+		width: auto;
+		padding: 8px 0 4px 0;
+	}
+
+	.openbtn {
+		font-size: 20px;
+		cursor: pointer;
+		background-color: #123740;
+		color: white;
+		padding: 0px 7px 0px 7px;
+		border: 1px solid aliceblue;
+		margin-top: 14px;
+		font-weight: 700;
+		transition: all .3s ease;
+		outline: none;
+	}
+.content-area {
+	margin: 58px 0 0 0;
+	min-height: 300px;
+}
+
+	.section-map .nav {
+		width: 210px;
+		margin: 17px auto 27px auto;
+		background: rgba(255,255,255,0.3);
+		padding: 5px 5px 3px 5px;
+		border-radius: 19px;
+		height: unset;
+	}
+	.search-form .submit-book {
+		padding: 0px 20px 0 21px;
+		height: 43px;
+		background: #0032A0;
+		font-size: 15px;
+		font-weight: 400;
+		color: #fff;
+		border: 0;
+		border-radius: 8px;
+		margin-left: 10px;
+		margin-top: 17px;
+	}
+
+	.div-search {
+		background: transparent;
+		width: 100%;
+		margin: 0 auto;
+		display: inline-block;
+		height: 43px;
+		box-shadow: 0px 0px 11px #000000;
+		border-radius: 8px;
+		padding: 0 56px 0 57px;
+	}
+
+	.div-search input {
+		background: #fff;
+		height: 43px;
+		font-size: 14px;
+		color: #000;
+		border: 0;
+		width: 100%;
+		border-right: 1px solid #ddd;
+		padding: 0 10px 0 46px;
+		border-radius: 8px;
+	}
+
+	.section-map .banner-sub {
+		background: url("../images/banner.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 62px 0 52px 0 !important;
+	}
+
+	.div-search select {
+		background: #fff;
+		height: 43px;
+		font-size: 15px;
+		color: #000;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		border: 0;
+		padding: 0 0 0 10px;
+		width: 100%;
+		border-radius: 8px;
+		margin-top: 9px;
+	}
+
+	.section-featured .col-sm-6 {
+		width: 50%;
+	}
+
+	.box-regi {
+		background: #ECF3F6;
+		width: 100%;
+		padding: 30px 19px 30px 20px;
+		margin-bottom: 10px;
+	}
+	/*.section-how .img-how {
+		display: none;
+	}
+*/
+	.box-usr {
+		margin-top: 18px;
+		border-bottom: 1px solid lightgray;
+		padding-bottom: 6px;
+	}
+
+	.box-usr div::before {
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 11px;
+		height: 42px;
+		width: 42px;
+		background-color: #FF7A8F;
+		left: 30px;
+		margin: 0 auto;
+	}
+.section-explore h1 {font-size: 30px;}
+.section-know h1 {font-size: 30px;}
+.row.row-user {padding: 30px 0 28px 0;margin: 0 15px;}
+.row.row-user .box-usr {padding: 10px 0;}
+.section-float .col-sm-3.text-center {padding: 0 5px;width: 50%;}
+.destinationsSect.section-float {margin: 0 20px;}
+.lgTxtBig {font-size: 25px;}
+.rinkinfoBox .rinkinfoImg {margin: 0 auto 20px;display: block;}
+.rinkinfoBox .rinkinfoDetailBox {padding: 0 15px;}
+.rinkinfoBox .rinkinfoDetail {padding: 0 10px;}
+.slotsTabs .nav-tabs {text-align: center;display: block;}
+.slotsTabs .nav-tabs .nav-item { display: inline-block; }
+.myBookings {padding: 0 10px;}
+.bookingRequest .mbcostUser, .bookingsBox .rinktotal { width: 100%; padding: 0 15px }
+.follows-rink .resultShow .rs-image {width: 97%;}
+.my-booking-layout .bookingsBox .rinktotal {width: 100%;padding: 0 15px;}
+.loginRight {padding: 20px 25px 30px;}
+.lgTitle {margin: 0 0 20px;}
+.section-float {padding: 30px 0 0 0;}
+#nearby-rinks.section-featured .featured-rinks .view-btn {height: 40px;line-height: 25px;}
+}/*575*/
+
+@media screen and (max-width: 535px) {
+	.section-footer .f-menus li a {
+		font-size: 12px;
+		font-weight: 400;
+		color: #E1E1E1;
+		margin-right: 0;
+	}
+	.section-float ul li {
+		display: inline-block;
+		width: 49%;
+	}
+	.section-footer .f-menus li a {
+		font-size: 12px;
+		font-weight: 400;
+		color: #E1E1E1;
+		margin-right: 0;
+	}
+
+	.section-footer .f-menus li {
+		display: inline-block;
+		width: 49%;
+	}
+	.site-footer .section-footer {
+		padding-top: 183px;
+		padding-bottom: 10px;
+	}
+
+	.site-footer .section-footer {
+		padding-top:0;
+		padding-bottom: 10px;
+	}
+
+}
+
+@media screen and (max-width: 450px) {
+	.row.row-quick .col-sm-3 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.box-quick .img-quick {
+		width: 68px;
+		height: 52px;
+		padding-top: 0;
+		margin: 0 auto;
+	}
+	.box-quick p {
+		font-weight: 700;
+		color: #000000;
+		font-size: 17px;
+		margin-top: 11px;
+	}
+.section-explore h1 {font-size: 25px;}
+}
+
+
+@media screen and (max-width:499px) {
+.lgLogo img {width: 100%;}
+.add-rink-requiest .modal-header::after {width: 35px;}
+.add-rink-requiest .modal-header::before {left: 34px;}
+.operator-profile.arrangement span {margin-left: 20px;}
+.searchResult.section-featured .featured-rinks .view-btn {padding: 0 12px;}
+.site-footer {background: #F9F9F9;}
+.rinkDetail {padding: 36px 0;}
+.rinkSlider #big .item {height: 220px;}
+.rinkSlider #thumbs .item {height: 50px;}
+.rinkReview .rinkReviewImg, .rinkReview .rinkReviewContent, .rinkReview .rinkReviewTitle { display: block; padding: 0; text-align: center; }
+.rinkReview { display: block; }
+.rinkReview .ReviewImg {margin: 0 auto 10px;}
+.rinkReview .rinkReviewContent p {text-align: left;}
+.rinkContent h3 {font-size: 20px;}
+.addedSlotBox .slotDetails div {display: block;}
+.follows-rink .resultShow .rs-image {width: 96%;}
+.resultShow .rs-content {padding: 0 10px 0 0;}
+.resultShow .box {display: block;float: none;}
+.follows-rink .resultShow .slotDiv {height: 30px;}
+.follows-rink .resultShow .slot-avail {position: relative;top: 8px;margin: 5px -17px 0 0;}
+.section-featured .featured-rinks form .input-et.frmChk { padding-left: 0; }
+.section-featured .featured-rinks form .input-et.frmChk label {top: -4px;}
+.searchResult .input-et.frmChk input[type="checkbox"] ~ label::before {width: 20px;height: 20px;}
+.section-featured .featured-rinks form .input-et.frmChk input[type="checkbox"] ~ label::before {top: -4px;}
+.searchResult.section-featured .featured-rinks .sub-btn {font-size: 9px;width: 76px;line-height: 18px;height: 27px;
+	margin: 19px 0 15px;padding: 5px 15px 4px 10px;}
+.searchResult.section-featured .featured-rinks .slot-avail::before, .searchResult.section-featured .featured-rinks .slot-avail.open::before {
+	content: "";border-width: 18px 9px 18px 10px;left: -19px;}
+.forgotPass .lgTitle {width: 100%;font-size: 30px;margin: 0;}
+.forgotPass span.hedSmlTxt {margin: 0;}
+.forgotPass .loginRight {margin-top: 0;}
+.forgotPass .lgTitle {font-size: 25px;}
+.searchResult.section-featured .featured-rinks .slot-avail {top: auto;position: absolute;bottom: 76px;right: 0;}
+#nearby-rinks.section-featured .info.null-state {padding-left: 0;}
+#nearby-rinks.section-featured .featured-rinks form .input-et.frmChk label { font-size: 14px; }
+#nearby-rinks.section-featured .featured-rinks form .input-et.frmChk input[type="checkbox"] ~ label::before {
+	top: 5px}
+#nearby-rinks.section-featured .featured-rinks .sub-btn {top: 0;}
+#nearby-rinks.section-featured .featured-rinks .slot-avail {top:62%;}
+#nearby-rinks.section-featured .featured-rinks .view-btn {margin: 10px 0 5px 0;}
+}
+
+@media screen and (max-width: 416px) {
+
+	.section-featured .featured-rinks .sub-btn {
+		font-size: 12px;
+		color: #000000;
+		font-weight: 400;
+		padding: 5px 15px 4px 15px;
+		background: #FFFFFF;
+		border: 1px solid #000000;
+		border-radius: 8px;
+		text-transform: uppercase;
+		position: relative;
+		top: -13px;
+		margin: 0 0 18px 0;
+	}
+	.section-featured .featured-rinks form label {
+		font-size: 15px;
+		color: #4E4D4D;
+		font-weight: 400;
+		padding: 0 0 0 23px;
+		position: relative;
+		top: -24px;
+	}
+
+}
+
+@media screen and (max-width: 409px) {
+	.section-featured .featured-rinks .slot-avail.open::before {
+	    content: "";
+	    display: none;
+	}
+	.section-featured .featured-rinks .slot-avail::before {
+	    content: "";
+	    display: none;
+	}
+
+	.section-featured .featured-rinks span.address {
+		font-size: 15px;
+		font-weight: 400;
+		margin-bottom: 5px;
+		color: #4E4D4D;
+		display: block;
+		margin-top: 18px;
+	}
+
+	.section-featured .featured-rinks .view-btn {
+		font-size: 12px;
+		font-weight: 400;
+		color: #fff;
+		padding: 10px 19px 8px 19px;
+		background: #0032A0;
+		border-radius: 8px;
+		display: inline-block;
+		margin: 0 0 0 0;
+		text-transform: uppercase;
+	}
+
+	.section-featured .col-sm-6 {
+		width: 100%;
+		text-align: center !important;
+	}
+	.section-featured .featured-rinks .slot-avail {
+		font-size: 12px;
+		color: #fff;
+		font-weight: 400;
+		padding: 8px 7px 6px 15px;
+		background: #C8102E;
+		border: 1px solid #DCDCDC;
+		position: absolute;
+		top: -34px;
+		right: -6px;
+	}
+
+}
+
+@media only screen and (max-width:399px) { 
+.section-map h1 {font-size: 25px;}
+.div-search {padding: 0 15px 0 15px;}
+.section-explore h1 {font-size: 25px;text-align: center;}
+.section-know .btns-know a {margin: 0 10px 0 0;padding: 13px 12px 10px 12px;}
+.destinationsSect .row.row-destinations {padding: 30px 10px;}
+.lgTxtBig {font-size: 22px;}
+.lgTitle {font-size: 30px;}
+.add-rink-requiest .modal-header {padding: 12px 0 12px 0;}
+.add-rink-requiest h4 {font-size: 18px;}
+.blogListingSect.contact .operator-profile {padding: 20px 15px 50px 15px;}
+.operator-profile.arrangement span {margin-left: 10px;}
+.searchResult.section-featured .featured-rinks .view-ns {padding: 0 12px;width: 100%; height: 33px;margin: 0 0 8px 0;}
+.searchResult.section-featured .featured-rinks .view-ns img { width: 100%; height: 100%; }
+.searchResult.section-featured .featured-rinks .view-btn {padding: 0 12px;width: 100%;margin: 0 0 8px 0;}
+.slotsTabs .nav-tabs .nav-link {padding: 5px 12px 5px 0;font-size: 13px;}
+.slotform {padding: 10px 10px;}
+.bookingsBox .lftTil {padding: 0 12px 0 0;font-size: 12px;}
+.lftTil span {font-size: 12px;}
+.follows-rink .resultShow .rs-image {width: 95%;}
+.follows-rink .resultShow .slotDiv, .follows-rink .resultShow .box input + label {font-size: 10px;}
+.bookingsBox .pinkBtn {padding: 5px 5px;min-width: 80px;}
+.bookingsBox .blueBtn {padding: 5px 5px;min-width: 70px;}
+.forgotPass .lgTitle {font-size: 20px;}
+.forgotPass span.hedSmlTxt {margin: 0 0 10px 0;font-size: 13px;line-height: 22px;}
+#nearby-rinks.section-featured .featured-rinks h3 {font-size: 18px;}
+#nearby-rinks.section-featured .featured-rinks span.address {font-size: 14px;}
+}

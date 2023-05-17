@@ -1,0 +1,51 @@
+/* No border box shadow */
+.no-border-box {
+    box-shadow: 10px 10px 15px #ccc !important;
+    border-radius: 0 !important;
+}
+/* Custom Alerts Css */
+.custom-alert-close {
+    color: #fff !important;
+    opacity: 1;
+}
+.custom-alert-danger {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+
+.custom-alert-warning {
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+
+.custom-alert-info {
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+
+.custom-alert-primary {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+
+.custom-alert-secondary {
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+
+.custom-alert-success {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
